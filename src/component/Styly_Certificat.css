@@ -1,0 +1,718 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+    --bgcolor-black : #191717;
+    --bgcolor-yellw : #FFB000;
+    --bgcolor-white : #FFFFFF;
+    --colorText-blck : #1E1E1E;
+    --font_inter:'Inter', sans-serif;
+    --font_K2D:'K2D', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.containerTotal{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #c9000000;
+    overflow: hidden;
+}
+::selection{
+    background: var(--colorText-blck);
+    color: var(--bgcolor-yellw);
+}
+
+.container{
+    background-color: var(--bgcolor-black);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+    
+}
+.container span:first-child{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.container span:nth-child(2){
+    position: absolute;
+
+ top: -10%;
+ left: 50%;
+}
+.container span:nth-child(3){
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+
+}
+.container span:nth-child(4){
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+
+}
+.contentconterin4{
+   
+    width: 95%;
+    height: 93vh;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.10);
+    backdrop-filter: blur(20px);
+    display: flex;
+
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.contentconterin4 .gettoTouch{
+   
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    padding: 10px;
+    
+    z-index: 99999;
+position: absolute;
+right: 0;
+top: 0;
+}
+.contentconterin4 .gettoTouch h1 a{
+    flex: 1 0 0;
+    color: #D9D9D9;
+    font-family: var(--font_inter);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: flex;
+    width: 171px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contentconterin4 .gettoTouch img{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.contentimgprine4{
+position: absolute;
+display: block;
+left: -10%;
+
+top:-10%;
+
+width: 40%;
+height:80%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ffae0000;
+z-index: 99999;
+}
+.contentimgprine4 .itms img:first-child{
+
+width: 100%;
+height: 100%;
+
+display: block;
+justify-content: center;
+align-items: center;
+background-color: rgba(137, 43, 226, 0);
+
+}
+.contentimg .prine4 .itms img:nth-child(2){
+    
+   
+    width: 100%;
+height: 100%;
+ display: block;
+justify-content: center;
+align-items: center;
+background-color: rgba(226, 198, 43, 0);
+
+
+}
+.contentimgprine4 .itms img:last-child{
+display: block;
+width: 100%;
+height: 100%;
+background-color: rgba(222, 184, 135, 0);
+justify-content: center;
+align-items: center;
+
+}
+.contentimgprine4 .itms img{
+
+width: 100%;
+height: 100%;
+
+
+}
+
+.titlename4{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+z-index: 99999999;
+}
+.titlename4 .contextname4 h1{
+    position: relative;
+     z-index: 999999;
+    color: #D9D9D9;
+font-family: var(--font_K2D);
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: inline-flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: rgba(30, 30, 30, 0.70);
+}
+.titlename4 .contextname4 .fechicn4{
+    position:absolute;
+    bottom: 20%;
+    left: -19%;
+    background-color: rgba(165, 42, 42, 0);
+ 
+
+    
+
+}
+.CertificatContainer .containerpositioncart{
+    position: absolute;
+    right: 15%;
+bottom: 5%;
+    width: 500px;
+    height: 600px ;
+    background-color: #ffae0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.CertificatContainer .contantcarte{
+    position: relative;
+
+    width: 515px;
+    height: 600px ;
+    background-color: #0000ff00;
+   
+}
+.CertificatContainer .contantcarte .carte{
+    position: absolute;
+    
+   
+    background-color: #c300ff00;
+    width: 515px;
+height: 328px;
+flex-shrink: 0;
+    
+
+   
+}
+.CertificatContainer .contantcarte .carte:first-child{
+z-index: 9999;
+bottom: 0;
+}
+.CertificatContainer .contantcarte .carte:nth-child(2){
+z-index: 999;
+bottom: 15%;
+}
+.CertificatContainer .contantcarte .carte:nth-child(3){
+z-index: 99;
+bottom: 25%;
+}
+.CertificatContainer .contantcarte .carte:nth-child(4){
+z-index: 9;
+bottom: 35%;
+}
+.CertificatContainer .contantcarte .carte:nth-child(5){
+z-index: 0;
+top: 0%;
+}
+.CertificatContainer .contantcarte .carte img{
+width: 100%;
+height: 100%;
+transition: opacity 0.5s ease-in-out;
+background-color: #fa1b1b00;
+
+}
+.CertificatContainer .contetnShowcarte{
+    position: absolute;
+    left: 10%;
+bottom: 5%;
+z-index: 9999999;
+    width:auto;
+    height: 450px ;
+    background-color: #5900ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+transition: all 1s ease;
+   
+}
+.CertificatContainer .contetnShowcarte .cartviw {
+    width: 100%;
+    background-color: #fa1b1b00;
+  
+   
+}
+.CertificatContainer .contetnShowcarte .cartviw img{
+    width: 100%;
+
+  
+   
+}
+.CertificatContainer .contetnShowcarte .controlview{
+    
+width: 100%;
+    background-color: #ff000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 50px;
+   
+}
+.CertificatContainer .contetnShowcarte .btn1{
+    width: 167px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 25px;
+background: rgba(30, 30, 30, 0.70);
+color: var(--Color, #FFF);
+font-family: var(--font_K2D);
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.4px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+   gap: 15px;
+   cursor: pointer;
+}
+.CertificatContainer .contetnShowcarte .btn2{
+    position: absolute;
+    left: 5%;
+    width: 53px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+@media (min-width: 1260px) and (max-width: 1420px) {
+    .titlename4{
+        position: absolute;
+        top: 10%;
+        left: 22%;
+    z-index: 99999999;
+    }
+    .titlename4 .contextname4 h1{
+        position: relative;
+         z-index: 999999;
+        color: #D9D9D9;
+    font-family: var(--font_K2D);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(30, 30, 30, 0.70);
+    }
+    .titlename4 .contextname4 .fechicn4{
+        width: 20%;
+        position:absolute;
+        bottom: 22%;
+        left: -19%;
+        background-color: rgba(165, 42, 42, 0);
+     
+    
+        
+    
+    }
+    .titlename4 .contextname4 .fechicn4 img{
+        width: 100%;
+      
+    }
+
+    .CertificatContainer .containerpositioncart{
+        position: absolute;
+        right: 20%;
+    bottom: 5%;
+        width: 30%;
+        height: 600px ;
+        background-color: #ffae0000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .CertificatContainer .contantcarte{
+        position: relative;
+    
+        width: 100%;
+        height: 600px ;
+        background-color: #0000ff00;
+       
+    }
+    .CertificatContainer .contantcarte .carte{
+        position: absolute;
+        
+       
+        background-color: #c300ff00;
+        width:450px;
+    height: 300px;
+    flex-shrink: 0;
+        
+    
+       
+    }
+    .CertificatContainer .contetnShowcarte{
+        position: absolute;
+        left: 5%;
+    bottom: 0%;
+    z-index: 9999999;
+        width:40%;
+        height: 450px ;
+        background-color: #5900ff00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    transition: all 1s ease;
+       
+    }
+    .CertificatContainer .contetnShowcarte.cartviw{
+        width: 700px;
+        display: none;
+    background-color: #fa1b1b00;
+    }
+    .CertificatContainer .contetnShowcarte.cartviw img{
+        width: 100%;
+    
+    }
+    .CertificatContainer .contetnShowcarte .controlview{
+        
+    width: 100%;
+        background-color: #ff000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 50px;
+       
+    }
+    .CertificatContainer .contetnShowcarte .btn1{
+        width: 167px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 25px;
+    background: rgba(30, 30, 30, 0.70);
+    color: var(--Color, #FFF);
+    font-family: var(--font_K2D);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+       gap: 15px;
+       cursor: pointer;
+    }
+    .CertificatContainer .contetnShowcarte .btn2{
+        position: absolute;
+        left: 5%;
+        width: 53px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: rgba(217, 217, 217, 0.20);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
+        
+    }
+    .notsupport{
+        display: none;
+      
+    }
+ 
+}
+@media (min-width: 1000px) and (max-width: 1260px) {
+    .titlename4{
+        position: absolute;
+        top: 10%;
+        left: 22%;
+    z-index: 99999999;
+    }
+    .titlename4 .contextname4 h1{
+        position: relative;
+         z-index: 999999;
+        color: #D9D9D9;
+    font-family: var(--font_K2D);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(30, 30, 30, 0.70);
+    }
+    .titlename4 .contextname4 .fechicn4{
+        width: 20%;
+        position:absolute;
+        bottom: 22%;
+        left: -19%;
+        background-color: rgba(165, 42, 42, 0);
+     
+    
+        
+    
+    }
+    .titlename4 .contextname4 .fechicn4 img{
+        width: 100%;
+      
+    }
+
+    .CertificatContainer .containerpositioncart{
+        position: absolute;
+        right: 15%;
+    bottom: 5%;
+        width: 40%;
+        height: 550px ;
+        background-color: #ffae0000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .CertificatContainer .contantcarte{
+        position: relative;
+    
+        width: 100%;
+        height: 550px ;
+        background-color: #0000ff00;
+       
+    }
+    .CertificatContainer .contantcarte .carte{
+        position: absolute;
+        
+       
+        background-color: #c300ff00;
+        width:400px;
+    height: 280px;
+    flex-shrink: 0;
+        
+    
+       
+    }
+    .CertificatContainer .contetnShowcarte{
+        position: absolute;
+        left: 2%;
+    bottom: -2%;
+    z-index: 9999999;
+        width:40%;
+        height: 450px ;
+        background-color: #5900ff00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    transition: all 1s ease;
+       
+    }
+    .CertificatContainer .contetnShowcarte.cartviw{
+        width: 700px;
+        display: none;
+    background-color: #fa1b1b00;
+    }
+    .CertificatContainer .contetnShowcarte.cartviw img{
+        width: 100%;
+    
+    }
+    .CertificatContainer .contetnShowcarte .controlview{
+        
+    width: 100%;
+        background-color: #ff000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 50px;
+       
+    }
+    .CertificatContainer .contetnShowcarte .btn1{
+        width: 167px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 25px;
+    background: rgba(30, 30, 30, 0.70);
+    color: var(--Color, #FFF);
+    font-family: var(--font_K2D);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+       gap: 15px;
+       cursor: pointer;
+    }
+    .CertificatContainer .contetnShowcarte .btn2{
+        position: absolute;
+        left: 5%;
+        width: 53px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: rgba(217, 217, 217, 0.20);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
+        
+    }
+   
+    .notsupport{
+        display: none;
+      
+    }
+    
+}
+
+@media (min-width: 250px) and (max-width: 1000px) {
+ 
+    .contentconterin {
+        
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .CertificatContainer,.titlename4,.SkillsContainer,.contentimgprine4{
+        display: none;
+    }
+    .notsupport{
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 500px;
+        background-color: rgba(255, 255, 6, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .notsupport img{
+    width: 100%;
+    height: 100%;
+    }
+    
+    
+ }/*
+@media (min-width: 900px) and (max-width: 1200px) {
+    
+}
+@media (min-width: 700px) and (max-width: 900px) {
+ 
+}
+@media (min-width: 600px) and (max-width: 700px) {
+ 
+    
+}
+@media (min-width: 550px) and (max-width: 600px) {
+   
+    
+}
+@media (min-width: 500px) and (max-width: 550px) {
+    
+    
+}
+@media (min-width: 430px) and (max-width: 500px) {
+ 
+   
+}
+@media (min-width: 395px) and (max-width: 430px) {
+  
+}
+@media (min-width: 330px) and (max-width: 395px) {
+    
+}
+@media (min-width: 250px) and (max-width: 330px) {
+  
+       
+    
+} */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

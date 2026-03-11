@@ -79,7 +79,17 @@ Features:
 - HTML5 / CSS3
 - Git & GitHub
 
----
+## ⚡ Tech Stack
+
+![Laravel](https://img.shields.io/badge/Laravel-red?logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-blue?logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-orange?logo=mysql)
+![Livewire](https://img.shields.io/badge/Livewire-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
+![React](https://img.shields.io/badge/React-blue?logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-blue?logo=tailwindcss)
+![Git](https://img.shields.io/badge/Git-black?logo=git)
 
 ## 💼 Freelance Focus
 

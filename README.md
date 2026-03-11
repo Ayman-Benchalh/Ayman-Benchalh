@@ -100,3 +100,9 @@ https://github.com/Ayman-Benchalh
 
 Portfolio  
 https://ayman-benchalh.vercel.app/
+
+## 📊 GitHub Stats
+
+![Ayman's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ayman-Benchalh&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayman-Benchalh&layout=compact&theme=tokyonight)
